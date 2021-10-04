@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 
 const ServiceHomeCard = (props) => {
-  console.log(props.fcd);
+  // console.log(props.fcd);
   const { name, description, img } = props.fcd;
   return (
     <Col>

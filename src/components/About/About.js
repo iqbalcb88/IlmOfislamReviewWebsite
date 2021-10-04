@@ -8,10 +8,14 @@ const About = () => {
         <Col>
           <div>
             <img
-              className='rounded-circle  border-2 border-light border m-5'
+              className='rounded-circle w-50  border-2 border-light border m-5'
               src='https://i.ibb.co/RNrLDDq/pp.png'
               alt=''
             />
+            <blockquote className='text-white-50'>
+              "Life without knowledge is death in disguise..."
+              <cite className='text-white'>- Talib Kweli</cite>
+            </blockquote>
           </div>
         </Col>
         <Col className='text-white-50 p-5 '>

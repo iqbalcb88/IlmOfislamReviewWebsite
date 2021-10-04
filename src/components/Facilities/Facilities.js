@@ -9,9 +9,9 @@ const Facilities = () => {
       .then((res) => res.json())
       .then((data) => setFacilityData(data));
   }, []);
-  console.log(facilityData);
+  // console.log(facilityData);
   return (
-    <div className='mx-4 my-5'>
+    <div className='px-5 my-5'>
       <h1>Facilities</h1>
       <hr />
       <Row xs={1} md={4} className='g-4 p-5'>

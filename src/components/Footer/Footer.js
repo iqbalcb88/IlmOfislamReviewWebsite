@@ -15,7 +15,7 @@ import logo from '../../resources/images/img3.jpg';
 const Footer = () => {
   return (
     <div className='footer-style'>
-      <Row xs={2} md={3} gap={5}>
+      <Row xs={1} md={3} gap={5}>
         <Col>
           <div>
             <img
@@ -105,24 +105,36 @@ const Footer = () => {
             </Form.Group>
           </Form>
           <div className='w-50'>
-            <div className='social-links'>
+            <div className='social-links bg-info p-2  rounded'>
               <Link
                 to={{ pathname: 'https://www.facebook.com/iqbal.cb88' }}
                 target='_blank'
               >
-                <FontAwesomeIcon icon={faFacebookSquare} size='3x' />
+                <FontAwesomeIcon
+                  icon={faFacebookSquare}
+                  size='3x'
+                  className='highlight text-danger'
+                />
               </Link>
               <Link
                 to={{ pathname: 'https://twitter.com/Iqbal_IT_BD' }}
                 target='_blank'
               >
-                <FontAwesomeIcon icon={faTwitterSquare} size='3x' />
+                <FontAwesomeIcon
+                  icon={faTwitterSquare}
+                  size='3x'
+                  className='highlight text-danger'
+                />
               </Link>
               <Link
                 to={{ pathname: 'https://www.instagram.com/ihkhan_cumilla/' }}
                 target='_blank'
               >
-                <FontAwesomeIcon icon={faInstagramSquare} size='3x' />
+                <FontAwesomeIcon
+                  icon={faInstagramSquare}
+                  size='3x'
+                  className='highlight text-danger'
+                />
               </Link>
               <Link
                 to={{
@@ -130,7 +142,11 @@ const Footer = () => {
                     'https://www.linkedin.com/in/iqbal-hossain-60437750/',
                 }}
               >
-                <FontAwesomeIcon icon={faLinkedin} size='3x' />
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  size='3x'
+                  className='highlight text-danger'
+                />
               </Link>
             </div>
           </div>

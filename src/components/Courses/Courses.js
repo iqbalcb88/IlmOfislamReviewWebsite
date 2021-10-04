@@ -12,7 +12,9 @@ const Courses = () => {
   return (
     <div className='mx-5'>
       <h1 className='text-danger-50  my-5 py-2 border-bottom border-1'>
-        COURSES
+        <span className='text-info bg-danger fw-bolder'>C</span>
+        <span className='bg-warning'>OUR</span>
+        <span className='text-danger bg-info'>SES</span>
       </h1>
       <Row xs={1} md={3} lg={4} className='g-5'>
         {courseData.map((course) => (
