@@ -1,8 +1,13 @@
-# Getting Started with Create React App
+# ILM OF ISLAM INTERNATIONAL ACADEMY
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Visit our websites [IlmOfIslam](https://ilm-of-islam.netlify.app/).
 
-## Available Scripts
+## Used Technologies:
+
+- React
+- React Bootstrap, React Router Dom
+- Font Awesome
+- Jsx, Js, Css
 
 In the project directory, you can run:
 
